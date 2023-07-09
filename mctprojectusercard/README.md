@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+## User Profile Display with React Context API
+This project aims to build a single page using React that displays the profiles of 10 users. The user data will be obtained from an open API. Each user's profile will include an avatar picture, name, email, phone, address, website, and company name. Additionally, there will be three action buttons beneath each profile: like, edit, and delete.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
+Display profiles of 10 users with the following information:
+Avatar picture
+Name
+Email
+Phone
+Address
+Website
+Company name
 
-## Available Scripts
+## Action buttons for each profile:
+# Like: Toggles the like status of the profile.
+# Edit: Opens a modal window to edit the profile information.
+# Delete: Prompts for confirmation before deleting the profile card.
 
-In the project directory, you can run:
+## Technologies Used
+To implement this project, the following technologies will be used:
 
-### `npm start`
+React: JavaScript library for building user interfaces.
+React Context API: To manage and share the application state across components.
+API: The user data will be obtained from an open API. The specific API to be used will be determined during development.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Development Process
+Fetch user data from the selected API.
+Create a React component to display the user profiles.
+Implement a Context Provider to manage the application state.
+Use the Context API to provide the user data to the profile component.
+Create a separate component for each user profile, including the avatar picture, name, email, phone, address, website, and company name.
+Implement functionality to toggle the like status of a profile.
+Implement a modal window component to display the information of the edited profile and allow users to make changes.
+Implement a confirmation popup component for deleting a profile.
+Deploy the application to a hosting platform.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Conclusion
+This project aims to build a single page using React that displays user profiles obtained from an open API. Users can interact with the profiles by liking, editing, and deleting them. The project will utilize React's Context API to manage and share the application state across components, providing a seamless user experience for managing the profiles.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Sources
 
-### `npm run build`
+1) https://jsonplaceholder.typicode.com/users --> API for users details
+2) https://avatars.dicebear.com/v2 --> Base Url for getting the Avatars according to user's names 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
