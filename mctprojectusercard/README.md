@@ -12,9 +12,9 @@ Website
 Company name
 
 ## Action buttons for each profile:
-1)Like: Toggles the like status of the profile.
-2)Edit: Opens a modal window to edit the profile information.
-3)Delete: Prompts for confirmation before deleting the profile card.
+1) Like: Toggles the like status of the profile.
+2) Edit: Opens a modal window to edit the profile information.
+3) Delete: Prompts for confirmation before deleting the profile card.
 
 ## Technologies Used
 To implement this project, the following technologies will be used:
